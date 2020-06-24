@@ -1,3 +1,3 @@
-require('./socket.io-stream');
+require('./node-socket-stream');
 require('./connection');
 require('./parser');

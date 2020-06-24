@@ -1,0 +1,46 @@
+{
+  "name": "node-socket-stream",
+  "version": "1.0.0",
+  "description": "stream for socket.io",
+  "author": "Naoyuki Kanezawa <naoyuki.kanezawa@gmail.com>",
+  "contributors": [
+    {
+      "name": "Naoyuki Kanezawa",
+      "email": "naoyuki.kanezawa@gmail.com"
+    },
+    {
+      "name": "Aaron O'Mullan",
+      "email": "aaron.omullan@friendco.de"
+    }
+  ],
+  "keywords": [
+    "stream",
+    "socket.io",
+    "binary",
+    "file",
+    "upload",
+    "download"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sap-staging/node-socketio-stream.git"
+  },
+  "scripts": {
+    "prepublish": "make build",
+    "test": "make test"
+  },
+  "dependencies": {
+    "component-bind": "1.0.0",
+    "debug": "4.1.1"
+  },
+  "devDependencies": {
+    "blob": "0.0.4",
+    "browserify": "~16.5.1",
+    "expect.js": "~0.3.1",
+    "mocha": "~3.0.2",
+    "socket.io": "~2.3.0",
+    "socket.io-client": "~2.3.0",
+    "zuul": "~3.12.0",
+    "zuul-ngrok": "~4.0.0"
+  }
+}

@@ -1,4 +1,4 @@
-# SAP node-socket-stream
+# Stream module for Socket.IO
 
 This library is an update to the [socket.io-stream](https://github.com/nkzawa/socket.io-stream) node module. No code changes have been made,
 but the `debug` module has been updated to avoid a security vulnerability in the existing project.

@@ -1,7 +1,7 @@
 {
   "name": "node-socket-stream",
   "version": "1.0.0",
-  "description": "stream for socket.io",
+  "description": "stream module for Socket.IO",
   "author": "Naoyuki Kanezawa <naoyuki.kanezawa@gmail.com>",
   "contributors": [
     {

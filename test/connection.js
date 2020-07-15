@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2020 Naoyuki Kanezawa <naoyuki.kanezawa@gmail.com>
+//
+// SPDX-License-Identifier: MIT
+
 var expect = require('expect.js');
 var Blob = require('blob');
 var ss = require('../');

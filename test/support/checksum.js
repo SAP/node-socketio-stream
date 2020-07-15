@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2020 Naoyuki Kanezawa <naoyuki.kanezawa@gmail.com>
+//
+// SPDX-License-Identifier: MIT
+
 var util = require('util');
 var crypto = require('crypto');
 var PassThrough = require('stream').PassThrough;

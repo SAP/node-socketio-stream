@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2020 Naoyuki Kanezawa <naoyuki.kanezawa@gmail.com>
+//
+// SPDX-License-Identifier: MIT
+
 var io = require('socket.io-client');
 var ss = require('../../');
 

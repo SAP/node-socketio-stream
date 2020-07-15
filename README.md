@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2020 Graeme Perrow <graeme.perrow@sap.com>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # Stream module for Socket.IO
 
 This library is an update to the [socket.io-stream](https://github.com/nkzawa/socket.io-stream) node module. No code changes have been made,
@@ -213,4 +219,4 @@ stream.write(new ss.Buffer([0, 1, 2]));
 ```
 
 ## License
-This project is licensed under the Apache Software License Version 2.0 except as noted otherwise in the LICENSE file.
+Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This file and all other files in this repository are licensed under the Apache License, v2.0 except as noted otherwise in the [LICENSE](https://github.com/SAP/node-socket-stream/blob/master/LICENSE) file.

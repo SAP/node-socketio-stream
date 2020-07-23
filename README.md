@@ -9,9 +9,25 @@ SPDX-License-Identifier: CC0-1.0
 This library is an update to the [socket.io-stream](https://github.com/nkzawa/socket.io-stream) node module. No code changes have been made,
 but the `debug` module has been updated to avoid a security vulnerability in the existing project.
 
+## Requirements
+
+TODO
+
 ## Installation
 
     npm install node-socket-stream
+
+## Known issues
+
+Issues on the original socket.io-stream module (listed [here](https://github.com/nkzawa/socket.io-stream/issues)) also apply to this module.
+
+## Support
+
+This project is provided as-is. No new features or bug fixes are anticipated.
+
+## License
+
+2020 SAP SE or an SAP affiliate company and node-socketio-stream contributors. See also the [LICENSE](https://github.com/SAP/node-socket-stream/blob/master/LICENSE) file.
 
 ## Usage
 
@@ -217,6 +233,3 @@ var stream = ss.createBlobReadStream(new Blob([1, 2, 3]));
 var stream = ss.createStream();
 stream.write(new ss.Buffer([0, 1, 2]));
 ```
-
-## License
-Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This file and all other files in this repository are licensed under the Apache License, v2.0 except as noted otherwise in the [LICENSE](https://github.com/SAP/node-socket-stream/blob/master/LICENSE) file.

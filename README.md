@@ -11,7 +11,7 @@ but the `debug` module has been updated to avoid a security vulnerability in the
 
 ## Requirements
 
-TODO
+- node.js 4.x or higher
 
 ## Installation
 

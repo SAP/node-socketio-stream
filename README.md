@@ -15,7 +15,7 @@ but the `debug` module has been updated to avoid a security vulnerability in the
 
 ## Installation
 
-    npm install node-socket-stream
+    npm install node-socketio-stream
 
 ## Known issues
 
@@ -27,7 +27,7 @@ This project is provided as-is. No new features or bug fixes are anticipated.
 
 ## License
 
-2020 SAP SE or an SAP affiliate company and node-socketio-stream contributors. See also the [LICENSE](https://github.com/SAP/node-socket-stream/blob/master/LICENSE) file.
+2020 SAP SE or an SAP affiliate company and node-socketio-stream contributors. See also the [LICENSE](https://github.com/SAP/node-socketio-stream/blob/master/LICENSE) file.
 
 ## Usage
 
@@ -35,13 +35,13 @@ If you are not familiar with Stream API, be sure to check out [the docs](http://
 I also recommend checking out the awesome [Stream Handbook](https://github.com/substack/stream-handbook).
 
 For streaming between server and client, you will send stream instances first.
-To receive streams, you just wrap `socket` with `node-socket-stream`, then listen any events as usual.
+To receive streams, you just wrap `socket` with `node-socketio-stream`, then listen any events as usual.
 
 Server:
 
 ```js
 var io = require('socket.io').listen(80);
-var ss = require('node-socket-stream');
+var ss = require('node-socketio-stream');
 var path = require('path');
 
 io.of('/user').on('connection', function(socket) {
@@ -58,7 +58,7 @@ Client:
 
 ```js
 var io = require('socket.io-client');
-var ss = require('node-socket-stream');
+var ss = require('node-socketio-stream');
 
 var socket = io.connect('http://example.com/user');
 var stream = ss.createStream();
@@ -85,19 +85,19 @@ stream.pipe(fs.createWriteStream('file.txt'));
 
 This module can be used on the browser. To do so, just copy a file to a public directory.
 
-    $ cp node_modules/node-socket-stream/node-socket-stream.js somewhere/public/
+    $ cp node_modules/node-socketio-stream/node-socketio-stream.js somewhere/public/
 
 You can also use [browserify](http://github.com/substack/node-browserify) to create your own bundle.
 
     $ npm install browserify -g
-    $ cd node_modules/node-socket-stream
-    $ browserify index.js -s ss > node-socket-stream.js
+    $ cd node_modules/node-socketio-stream
+    $ browserify index.js -s ss > node-socketio-stream.js
 
 ```html
 <input id="file" type="file" />
 
 <script src="/socket.io/socket.io.js"></script>
-<script src="/js/node-socket-stream.js"></script>
+<script src="/js/node-socketio-stream.js"></script>
 <script src="/js/jquery.js"></script>
 <script>
 $(function() {

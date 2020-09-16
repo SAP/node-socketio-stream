@@ -5,7 +5,7 @@ SPDX-License-Identifier: CC0-1.0
 */}
 
 {
-  "name": "node-socket-stream",
+  "name": "@sap_oss/node-socketio-stream",
   "version": "1.0.0",
   "description": "stream module for Socket.IO",
   "author": "Naoyuki Kanezawa <naoyuki.kanezawa@gmail.com>",
@@ -29,7 +29,7 @@ SPDX-License-Identifier: CC0-1.0
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/sap-staging/node-socketio-stream.git"
+    "url": "git+https://github.com/SAP/node-socketio-stream.git"
   },
   "scripts": {
     "prepublish": "make build",
@@ -48,5 +48,14 @@ SPDX-License-Identifier: CC0-1.0
     "socket.io-client": "~2.3.0",
     "zuul": "~3.12.0",
     "zuul-ngrok": "~4.0.0"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SAP/node-socketio-stream/issues"
+  },
+  "homepage": "https://github.com/SAP/node-socketio-stream#readme"
 }

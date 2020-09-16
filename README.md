@@ -15,7 +15,7 @@ but the `debug` module has been updated to avoid a security vulnerability in the
 
 ## Installation
 
-    npm install node-socketio-stream
+    npm install @sap_oss/node-socketio-stream
 
 ## Known issues
 
@@ -41,7 +41,7 @@ Server:
 
 ```js
 var io = require('socket.io').listen(80);
-var ss = require('node-socketio-stream');
+var ss = require('@sap_oss/node-socketio-stream');
 var path = require('path');
 
 io.of('/user').on('connection', function(socket) {
@@ -58,7 +58,7 @@ Client:
 
 ```js
 var io = require('socket.io-client');
-var ss = require('node-socketio-stream');
+var ss = require('@sap_oss/node-socketio-stream');
 
 var socket = io.connect('http://example.com/user');
 var stream = ss.createStream();
@@ -85,12 +85,12 @@ stream.pipe(fs.createWriteStream('file.txt'));
 
 This module can be used on the browser. To do so, just copy a file to a public directory.
 
-    $ cp node_modules/node-socketio-stream/node-socketio-stream.js somewhere/public/
+    $ cp node_modules/@sap_oss/node-socketio-stream/node-socketio-stream.js somewhere/public/
 
 You can also use [browserify](http://github.com/substack/node-browserify) to create your own bundle.
 
     $ npm install browserify -g
-    $ cd node_modules/node-socketio-stream
+    $ cd node_modules/@sap_oss/node-socketio-stream
     $ browserify index.js -s ss > node-socketio-stream.js
 
 ```html

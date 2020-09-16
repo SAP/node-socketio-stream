@@ -1,9 +1,3 @@
-{/*
-SPDX-FileCopyrightText: 2020 Graeme Perrow <graeme.perrow@sap.com>
-
-SPDX-License-Identifier: CC0-1.0
-*/}
-
 {
   "name": "@sap_oss/node-socketio-stream",
   "version": "1.0.0",

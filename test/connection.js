@@ -8,7 +8,7 @@ var ss = require('../');
 var support = require('./support');
 var client = support.client;
 
-describe('node-socket-stream', function() {
+describe('node-socketio-stream', function() {
   this.timeout(70000);
 
   it('should send/receive a file', function(done) {

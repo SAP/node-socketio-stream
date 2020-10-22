@@ -2,6 +2,6 @@
 //
 // SPDX-License-Identifier: MIT
 
-require('./node-socket-stream');
+require('../node-socketio-stream');
 require('./connection');
 require('./parser');

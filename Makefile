@@ -5,7 +5,7 @@
 REPORTER = dot
 
 build:
-	@./node_modules/.bin/browserify index.js -s ss > node-socket-stream.js
+	@./node_modules/.bin/browserify index.js -s ss > node-socketio-stream.js
 
 install:
 ifeq ($(SOCKETIO_VERSION),)

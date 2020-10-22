@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Stream module for Socket.IO
 Upstream-Contact: Graeme Perrow <graeme.perrow@sap.com>
-Source: https://github.com/SAP/node-socket-stream
+Source: https://github.com/SAP/node-socketio-stream
 
 Files: package.json README.md
 Copyright: 2020 SAP SE or an SAP affiliate company and node-socketio-stream contributors

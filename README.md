@@ -1,13 +1,9 @@
-<!--
-SPDX-FileCopyrightText: 2020 Graeme Perrow <graeme.perrow@sap.com>
-
-SPDX-License-Identifier: CC0-1.0
--->
-
 # Stream module for Socket.IO
 
 This library is an update to the [socket.io-stream](https://github.com/nkzawa/socket.io-stream) node module. No code changes have been made,
 but the `debug` module has been updated to avoid a security vulnerability in the existing project.
+
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP/node-socketio-stream)](https://api.reuse.software/info/github.com/SAP/node-socketio-stream)
 
 ## Requirements
 

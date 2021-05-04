@@ -1,6 +1,6 @@
 {
   "name": "@sap_oss/node-socketio-stream",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "stream module for Socket.IO",
   "author": "Naoyuki Kanezawa <naoyuki.kanezawa@gmail.com>",
   "contributors": [
@@ -38,8 +38,8 @@
     "browserify": "~16.5.1",
     "expect.js": "~0.3.1",
     "mocha": "~3.0.2",
-    "socket.io": "~2.3.0",
-    "socket.io-client": "~2.3.0",
+    "socket.io": ">=2.4.0",
+    "socket.io-client": ">=2.4.0",
     "zuul": "~3.12.0",
     "zuul-ngrok": "~4.0.0"
   },

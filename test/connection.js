@@ -111,8 +111,8 @@ describe('node-socketio-stream', function() {
           });
         });
 
-      stream.write(new Buffer([0, 1]));
-      stream.write(new Buffer([2, 3]));
+      stream.write(Buffer.from([0, 1]));
+      stream.write(Buffer.from([2, 3]));
       stream.end();
     });
   });

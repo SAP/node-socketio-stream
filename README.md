@@ -9,7 +9,7 @@ but the `debug` module has been updated to avoid a security vulnerability in the
 
 - node.js 4.x or higher
 
-## Installation
+## Download and installation
 
     npm install @sap_oss/node-socketio-stream
 
@@ -17,7 +17,7 @@ but the `debug` module has been updated to avoid a security vulnerability in the
 
 Issues on the original socket.io-stream module (listed [here](https://github.com/nkzawa/socket.io-stream/issues)) also apply to this module.
 
-## Support
+## How to obtain support
 
 This project is provided as-is. No new features or bug fixes are anticipated.
 

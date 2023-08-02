@@ -4,7 +4,7 @@ Upstream-Contact: Graeme Perrow <graeme.perrow@sap.com>
 Source: https://github.com/SAP/node-socketio-stream
 
 Files: package.json README.md package-lock.json CONTRIBUTING.md
-Copyright: 2020 SAP SE or an SAP affiliate company and node-socketio-stream contributors
+Copyright: 2020-2023 SAP SE or an SAP affiliate company and node-socketio-stream contributors
 License: Apache-2.0
 
 Files: index.js .gitignore .npmignore .travis.yml .zuul.yml lib test

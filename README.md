@@ -23,7 +23,7 @@ This project is provided as-is. No new features or bug fixes are anticipated.
 
 ## License
 
-2020 SAP SE or an SAP affiliate company and node-socketio-stream contributors. See also the [LICENSE](https://github.com/SAP/node-socketio-stream/blob/master/LICENSE) file.
+Copyright 2020-2023 SAP SE or an SAP affiliate company and node-socketio-stream contributors. See also the [LICENSE](https://github.com/SAP/node-socketio-stream/blob/master/LICENSE) file.
 
 ## Usage
 

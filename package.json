@@ -1,6 +1,6 @@
 {
   "name": "@sap_oss/node-socketio-stream",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "stream module for Socket.IO",
   "author": "Naoyuki Kanezawa <naoyuki.kanezawa@gmail.com>",
   "contributors": [
